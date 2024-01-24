@@ -3390,6 +3390,27 @@ button:disabled,
 	background: #45558d;
 }
 
+.social-icons{
+	display: flex;
+	flex-direction: column;
+	padding-right: 30px;
+}
+
+.social-icons a{
+	font-size: 25px;
+	margin-top: 10px;
+}
+
+.social-icons .icon-a:hover{
+	color: #0DC043;
+}
+.social-icons .icon-b:hover{
+	color: #0A67FF;
+}
+.social-icons .icon-c:hover{
+	color: #ff2e2e;
+}
+
 @media screen and (max-width: 736px) {
 
 	#menu .inner {
@@ -3446,7 +3467,7 @@ body.is-menu-visible #menu .inner {
 	-ms-transform: translateY(0);
 	transform: translateY(0);
 	opacity: 1;
-	margin: 0 0 1.3em 0;
+	margin: 0 0 1.5em 0;
 }
 
 #banner .logo .icon {
@@ -3456,7 +3477,7 @@ body.is-menu-visible #menu .inner {
 	display: inline-block;
 	font-size: 2em;
 	height: 2.25em;
-	line-height: 2.25em;
+	line-height: 2.5em;
 	text-align: center;
 	width: 2.25em;
 	padding: 5px;
@@ -3859,6 +3880,7 @@ body.is-preload #banner p {
 .wrapper.spotlight .image {
 	border-radius: 100%;
 	margin: 0 3em 2em 0;
+	padding: 10px;
 	width: 22em;
 	overflow: hidden;
 }
