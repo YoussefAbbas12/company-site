@@ -3459,6 +3459,7 @@ body.is-menu-visible #menu .inner {
 	line-height: 2.25em;
 	text-align: center;
 	width: 2.25em;
+	padding: 5px;
 }
 
 #banner h2 {
